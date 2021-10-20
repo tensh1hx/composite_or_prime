@@ -11,6 +11,8 @@ while True:
     if x <= y:
         if dividers == [1, x]:
             print(x, "is a prime number!")
+        else:
+            print(x, "is a composite number!")
         y = 0
         x += 1
         dividers.clear()
